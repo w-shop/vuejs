@@ -3,7 +3,7 @@
 ## 1) initializing project
 ```
 yarn init
-yarn add -D @symfony/webpack-encore node-sass sass-loader vue vue-loader vue-template-compiler lodash
+yarn add -D @symfony/webpack-encore node-sass sass-loader vue vue-loader@^14.2.2 vue-template-compiler lodash
 ```
 
 ## project structure
