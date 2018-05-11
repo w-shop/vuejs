@@ -1,0 +1,19 @@
+.pager {
+    list-style: none;
+
+    li {
+        display: inline-block;
+    }
+
+    &__page {
+        display: inline-block;
+        padding: 15px;
+        font-size: 12px;
+        border: 1px solid lightgray;
+
+        &--active {
+            display: inline-block;
+            background-color: lightgray;
+        }
+    }
+}
