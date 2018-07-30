@@ -14,5 +14,10 @@
     "vue": "^2.5.16",
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.5.16"
+  },
+  "scripts": {
+     "watch": "node_modules/.bin/encore dev --watch",
+     "server": "node_modules/.bin/encore dev-server",
+     "build": "node_modules/.bin/encore production"
   }
 }
